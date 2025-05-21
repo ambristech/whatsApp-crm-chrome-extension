@@ -6,7 +6,7 @@
 This Chrome extension allows you to send WhatsApp messages to multiple phone numbers with customizable intervals through WhatsApp Web.
 ---
 
-<img src="whatsapp_CRM.png">
+<img src="Whatsapp_CRM.png">
 
 ## ✨ Features
 
