@@ -1,8 +1,29 @@
-# WhatsApp Bulk Messenger Chrome Extension
+
+# WhatsBulk CRM – Chrome Extension
+
+**WhatsBulk CRM** is a free, lightweight Chrome Extension that acts as a tiny CRM for sending personalized WhatsApp messages to your customers. Use it to send bulk or individual messages, birthday and anniversary wishes, and sales or discount offers — all directly from your browser!
 
 This Chrome extension allows you to send WhatsApp messages to multiple phone numbers with customizable intervals through WhatsApp Web.
+---
 
-## Installation
+<img src="whatsapp_CRM.png">
+
+## ✨ Features
+
+- 📤 Send WhatsApp Messages to single or multiple contacts
+- 🎂 Auto-send Birthday & Anniversary Wishes
+- 🛍️ Send Sales & Discount Offers to customers
+- 📇 Built-in Tiny CRM for contact management
+- 🌐 Works Offline (local system) or Online (MySQL database)
+- 🆓 Completely Free – No ads, no limits!
+
+---
+
+## 🔧 Installation
+
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/your-username/whatsbulk-crm-extension.git
 
 1. Download or clone this repository
 2. Open Chrome and go to `chrome://extensions/`
@@ -18,6 +39,7 @@ This Chrome extension allows you to send WhatsApp messages to multiple phone num
 5. Click "Start Sending"
 6. Make sure you're logged into WhatsApp Web in your browser
 
+
 ## Important Notes
 
 - Phone numbers must include the country code
@@ -32,4 +54,53 @@ This Chrome extension allows you to send WhatsApp messages to multiple phone num
 - Customizable interval between messages
 - Progress tracking
 - Error handling
-- Ability to stop sending at any time 
+- Ability to stop sending at any time
+
+💻 Requirements
+Google Chrome
+
+WhatsApp Web
+
+Optional: MySQL database for online contact syncing
+
+🧩 Usage
+Add contacts manually or sync with your MySQL database.
+
+Select one or multiple contacts.
+
+Choose the message type (personal, promotion, special wishes).
+
+Send directly via WhatsApp Web.
+
+📦 Folder Structure
+graphql
+Copy
+Edit
+whatsbulk-crm-extension/
+│
+├── auth.php
+├── api.php
+├── manifest.json
+├── background.js
+├── login.html
+├── login.js
+├── popup.html
+├── popup.js
+├── register.html
+├── register.js
+├── styles.css
+├── db_config.php      # Optional for MySQL integration
+├── assets/            # Icons and logos
+└── README.md
+🔐 License
+This project is licensed under the MIT License.
+
+🙌 Support
+For issues or suggestions, feel free to open an Issue or submit a PR.
+
+🚀 Stay Connected. Stay Professional.
+Reach out!📧 Email: ambristech@gmail.com.🌐 GitHub: ambristech
+
+Built with ❤️ for efficient communication!
+
+Let me know if you want help setting up the actual repo, README badges, or uploading project files.
