@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Bulk Messenger",
+  "version": "1.0",
+  "description": "Send WhatsApp messages with custom intervals",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost/*"
+  ],
+  "action": {
+    "default_popup": "login.html"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+} 
